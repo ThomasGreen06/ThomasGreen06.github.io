@@ -1,0 +1,53 @@
+baseURL = "/"
+languageCode = 'en-us'
+title = 'Thomas Green'
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+
+[params]
+homepage_intro = 'I am a Japanese Techinical College Student and majoring Computer Science.'
+homepage_button_link = "https://github.com/ThomasGreen06"
+homepage_button_text = "GitHub"
+
+
+
+[markup.goldmark.parser.attribute]
+    block = true
+
+
+
+[params.logo]
+    mobile = "icons/logo.svg"
+    standard  = "icons/logo.svg"
+
+
+
+[author]
+    name = "Thomas Green"
+    bio = "Technical College Student"
+    job = "student"
+    location = "Japan"
+
+
+[[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/profile/"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = 3

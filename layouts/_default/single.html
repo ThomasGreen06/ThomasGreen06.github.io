@@ -1,0 +1,23 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+  <h1 class="title">{{.Title}}</h1>
+  <div class="content {{if .Site.Params.enable_anchor_link}}{{ "anchor-link-enabled" }}{{ end }}">
+    {{.Content}}
+  </div>
+
+  
+  <script type="text/javascript" defer>
+    /*
+    const contentsList = document.getElementById("contentsList");
+    const contentsElm = contentsList.innerHTML.split(',');
+    let contentsHTML = contentsElm.map( (elm, index) => {
+      return `<li class="contentsListNav"><a class="contentsListNavLink" href="#${elm}">${elm.replace('_',' ')}</a></li>`
+    } ).join("");
+    document.getElementById("contentsBox").innerHTML = contentsHTML;
+    */
+  </script>
+
+{{ end }}
