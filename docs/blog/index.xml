@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Thomas Green</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Thomas Green</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2023 17:35:47 +0900</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>/blog/test/</link>
+      <pubDate>Sun, 30 Apr 2023 17:35:47 +0900</pubDate>
+      
+      <guid>/blog/test/</guid>
+      <description>main_theme,solution What&amp;rsquo;s the main theme? Why We have to drink water?
+I found the answer of this question.
+Below is the amount of water we drink everyday.
+10000 L a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a
+a
+a
+a a a</description>
+    </item>
+    
+  </channel>
+</rss>
