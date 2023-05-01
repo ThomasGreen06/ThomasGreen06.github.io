@@ -8,7 +8,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
-publishDir = "docs"
+publishDir = "public"
 
 [params]
 homepage_intro = 'I am a Japanese Techinical College Student and majoring Computer Science.'

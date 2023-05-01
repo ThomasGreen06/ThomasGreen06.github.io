@@ -18,11 +18,11 @@
 <meta name="twitter:site" content="" />
 <meta name="twitter:creator" content="" />
 
-  <link rel="icon" href="/icons/favicon.ico">
+  <link rel="icon" href="/icons/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.bf851bdb2aa8dbb86f3e2d0e03df4634d13f729f0e8d2f1468980dd105667e08.css">
+  <link rel="stylesheet" href="/css/style.min.61d5229b6af7735a436f1580bd8a855ac67805bb0db4be41ccd5bb8cd00231e9.css">
   
 
   
@@ -62,7 +62,7 @@
       <a href="/"><img alt="Logo" src="/icons/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="/"><img alt="Logo" src="/icons/logo.svg" /></a>
+      <a href="/"><img alt="Logo" src="/icons/logo.png" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
@@ -135,14 +135,26 @@
           <p>I am a Japanese Techinical College Student and majoring Computer Science.</p>
           
         </div>
-        <a class="button button-primary mb-2" href="https://github.com/ThomasGreen06">
-          GitHub
+        <a class="button button-primary mb-2" href="/profile/">
+          View Profile
         </a>
       </div>
     </div>
   </div>
 </div>
 
+
+<div class="strip">
+  <div class="container pt-4 pb-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-20">
+        <div class="terminal">
+          <img src="/icons/terminal.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -155,7 +167,7 @@
       <div class="col-12">
         <div class="sub-footer-inner">
           <ul>
-            <li class="zerostatic"><a href="https://github.com/ThomasGreen06">github.com</a></li>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
           </ul>
         </div>
       </div>
@@ -190,7 +202,7 @@
   
     document.getElementById("contentsBox").innerHTML = sectionPages.map( (elm, index) => {
       const page = elm.replace(/Page\(\/[a-z\d-.]*\/?/g,'').replace(')','');
-      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/')}">${page.replace('_',' ').replace(".md",'/')}</a></li>`
+      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/').toLowerCase()}">${page.replace('_',' ').replace(".md",'')}</a></li>`
     }).join('');
   } else {
     const contentsList = document.getElementById("contentsList");
