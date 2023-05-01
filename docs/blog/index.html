@@ -146,7 +146,7 @@
 <div class="summary mb-2">
   
   <h2 class="title-summary"><a href="/blog/2023-may-01-1727/">Hello Wrold</a></h2>
-  <p>Hello_World Hello World This is my first post.</p>
+  <p>This is my first post.</p>
 </div>
 
 
@@ -199,7 +199,7 @@
   
     document.getElementById("contentsBox").innerHTML = sectionPages.map( (elm, index) => {
       const page = elm.replace(/Page\(\/[a-z\d-.]*\/?/g,'').replace(')','');
-      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/')}">${page.replace('_',' ').replace(".md",'')}</a></li>`
+      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/').toLowerCase()}">${page.replace('_',' ').replace(".md",'')}</a></li>`
     }).join('');
   } else {
     const contentsList = document.getElementById("contentsList");
