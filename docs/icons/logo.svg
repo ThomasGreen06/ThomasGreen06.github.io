@@ -28,14 +28,14 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.87885424"
-     inkscape:cx="74.528855"
-     inkscape:cy="213.91488"
+     inkscape:cx="77.94239"
+     inkscape:cy="113.78451"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g14857" />
+     inkscape:current-layer="g15419" />
   <defs
      id="defs12485" />
   <g
@@ -47,25 +47,40 @@
        id="g14569">
       <g
          id="g14857">
-        <rect
-           style="fill:none;stroke:#006300;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke"
-           id="rect14488"
-           width="387.50024"
-           height="288.37228"
-           x="251.79475"
-           y="331.54678" />
+        <g
+           id="g15419">
+          <rect
+             style="fill:none;stroke:#006300;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke"
+             id="rect14488"
+             width="387.50024"
+             height="288.37228"
+             x="251.79475"
+             y="331.54678" />
+          <text
+             xml:space="preserve"
+             style="font-weight:bold;font-size:245.918px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#25e4b4;fill-opacity:1;stroke:#006300;stroke-width:1.1;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke"
+             x="267.55557"
+             y="556.46625"
+             id="text12619"
+             transform="scale(1.001587,0.99841551)"><tspan
+               sodipodi:role="line"
+               id="tspan12617"
+               x="267.55557"
+               y="556.46625"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Z003;-inkscape-font-specification:'Z003 Bold';fill:#25e4b4;fill-opacity:1;stroke-width:1.1;stroke-dasharray:none">T.G</tspan></text>
+        </g>
         <text
            xml:space="preserve"
-           style="font-weight:bold;font-size:245.918px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#16b18a;fill-opacity:1;stroke:#006300;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke"
-           x="253.67059"
-           y="565.72186"
-           id="text12619"
+           style="font-weight:bold;font-size:245.918px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#25e4b4;fill-opacity:1;stroke:#006300;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke"
+           x="-251.4241"
+           y="770.18286"
+           id="text12619-0"
            transform="scale(1.001587,0.99841551)"><tspan
              sodipodi:role="line"
-             id="tspan12617"
-             x="253.67059"
-             y="565.72186"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#16b18a;fill-opacity:1;stroke-width:0;stroke-dasharray:none">T.G</tspan></text>
+             id="tspan12617-8"
+             x="-251.4241"
+             y="770.18286"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#25e4b4;fill-opacity:1;stroke-width:0;stroke-dasharray:none">T.G</tspan></text>
       </g>
     </g>
   </g>

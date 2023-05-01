@@ -10,11 +10,11 @@ pygmentsUseClasses = true
 
 publishDir = "docs"
 
-
 [params]
 homepage_intro = 'I am a Japanese Techinical College Student and majoring Computer Science.'
-homepage_button_link = "https://github.com/ThomasGreen06"
-homepage_button_text = "GitHub"
+homepage_button_link = "/profile/"
+homepage_button_text = "View Profile"
+homepage_image = "icons/terminal.svg"
 
 
 
@@ -24,7 +24,7 @@ homepage_button_text = "GitHub"
 
 
 [params.logo]
-    mobile = "icons/logo.svg"
+    mobile = "icons/logo.png"
     standard  = "icons/logo.svg"
 
 

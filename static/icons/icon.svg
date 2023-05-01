@@ -28,14 +28,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="0.74475309"
-     inkscape:cx="134.94405"
+     inkscape:cx="136.28678"
      inkscape:cy="173.21177"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g12255"
+     inkscape:current-layer="text3007"
      showguides="false">
     <inkscape:grid
        type="xygrid"
@@ -159,24 +159,49 @@
      id="layer1">
     <g
        id="g12255">
-      <rect
-         style="fill:#ffffff;stroke:#000000;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect10343"
-         width="511.57059"
-         height="513.30975"
-         x="0.59211439"
-         y="1.6779989" />
-      <text
-         xml:space="preserve"
-         style="font-weight:bold;font-size:283.017px;line-height:0;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#006300;fill-opacity:1;stroke:#006300;stroke-width:9.5;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-         x="34.173069"
-         y="367.22443"
-         id="text10137"><tspan
-           sodipodi:role="line"
-           id="tspan10135"
-           x="34.173069"
-           y="367.22443"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:283.017px;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';fill:#006300;fill-opacity:1;stroke-width:9.5;stroke-dasharray:none;stroke:#006300;stroke-opacity:1">T.G</tspan></text>
+      <g
+         id="g2885">
+        <g
+           id="g3012">
+          <rect
+             style="fill:#00dca0;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             id="rect10343"
+             width="511.57059"
+             height="513.30975"
+             x="0.59211439"
+             y="1.6779989"
+             ry="81.701248" />
+          <g
+             aria-label="T"
+             transform="scale(1.1085733,0.90206034)"
+             id="text3007"
+             style="font-size:605.114px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono';fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel;paint-order:markers fill stroke">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;font-family:GurbaniBoliLite;-inkscape-font-specification:'GurbaniBoliLite Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+               x="170.17473"
+               y="316.5473"
+               id="text4063"
+               transform="scale(0.90206033,1.1085733)"><tspan
+                 sodipodi:role="line"
+                 id="tspan4061"
+                 x="170.17473"
+                 y="316.5473" /></text>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:524.93px;font-family:GurbaniBoliLite;-inkscape-font-specification:'GurbaniBoliLite Bold';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:27.19999989;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+               x="65.401802"
+               y="431.49011"
+               id="text4067"
+               transform="scale(0.90206033,1.1085733)"><tspan
+                 sodipodi:role="line"
+                 id="tspan4065"
+                 x="65.401802"
+                 y="431.49011"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Z003;-inkscape-font-specification:'Z003 Bold';stroke-width:27.19999989;stroke-dasharray:none">T</tspan></text>
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

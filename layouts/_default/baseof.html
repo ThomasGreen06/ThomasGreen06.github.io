@@ -7,7 +7,7 @@
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ block "meta_tags" . }}{{end}}
-  <link rel="icon" href="{{ "icons/favicon.ico" | absURL}}">
+  <link rel="icon" href="{{ "icons/favicon.png" | absURL}}">
 
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -117,7 +117,7 @@
   //{{ end }}
     document.getElementById("contentsBox").innerHTML = sectionPages.map( (elm, index) => {
       const page = elm.replace(/Page\(\/[a-z\d-.]*\/?/g,'').replace(')','');
-      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/')}">${page.replace('_',' ').replace(".md",'/')}</a></li>`
+      return  `<li class="contentsListNav"><a class="contentsListNavLink" href="${page.replace(".md",'/').toLowerCase()}">${page.replace('_',' ').replace(".md",'')}</a></li>`
     }).join('');
   } else {
     const contentsList = document.getElementById("contentsList");

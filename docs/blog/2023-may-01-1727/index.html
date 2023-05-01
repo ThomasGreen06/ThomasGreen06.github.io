@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>404 Page not found - Thomas Green</title>
+  <title>Hello Wrold - Thomas Green</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/icons/favicon.png">
@@ -19,7 +19,7 @@
 </head>
 
 
-<body class='page '>
+<body class='page page-default-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
@@ -95,6 +95,8 @@
     
 
     
+    
+    
 
     
     
@@ -113,15 +115,46 @@
     </style>
 
     
-    
-<div class="container pt-4 pt-10">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-9">
-      <h1>404 Page Not Found</h1>
-    </div>
-  </div>
-</div>
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
 
+
+            <div class="docs-menu">
+              <h4>Contents</h4>
+              <ul id="contentsBox">
+                
+              </ul>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+  <h1 class="title">Hello Wrold</h1>
+  <div class="content ">
+    <div id="contentsList" style="display:none;">
+Hello_World
+</div>
+<h2 id="hello_world">Hello World</h2>
+<p>This is my first post.</p>
+
+  </div>
+
+  
+  <script type="text/javascript" defer>
+    
+
+  </script>
+
+
+        </div>
+      </div>
+    </div>
     
   </div>
 
@@ -160,9 +193,9 @@
   if(document.getElementsByClassName("overview").length != 0) {
     let sectionPages = [];
   
-    sectionPages.push("Page(\/profile\/index.md)");
+    sectionPages.push("Page(\/blog)");
   
-    sectionPages.push("Page(\/_index.md)");
+    sectionPages.push("Page(\/blog\/2023-May-01-1727.md)");
   
     document.getElementById("contentsBox").innerHTML = sectionPages.map( (elm, index) => {
       const page = elm.replace(/Page\(\/[a-z\d-.]*\/?/g,'').replace(')','');
