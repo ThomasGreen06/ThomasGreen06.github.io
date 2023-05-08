@@ -10,11 +10,11 @@ Profile,Works,Contact
 
 ## Profile {#Profile}
 {{<emoji>}}waving-hand{{</emoji>}}  My name is `Thomas Green` (JP: Taisei Muto).  
-
+{style="font-family:monospace;"}
 {{<emoji>}}house{{</emoji>}} Living in Japan.  
-
+{style="font-family:monospace;"}
 {{<emoji>}}student{{</emoji>}} I'm a student at Ibaraki Kosen (NITIC).  
-
+{style="font-family:monospace;"}
 {{<emoji>}}eyes{{</emoji>}} Currently learning C/C++.  
 {style="font-family:monospace;"}
 
